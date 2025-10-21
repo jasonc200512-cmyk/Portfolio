@@ -1,0 +1,575 @@
+@media (max-width: 767px) {
+
+body {
+
+    background: linear-gradient(#434343, #bdbdbd);
+    border: thick double #d8e2e7;
+    border-width: thick;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.traduire1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    top: 10px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    z-index: 1000;
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.traduire2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    top: 10px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    z-index: 1000;
+        color: white;
+    text-decoration: none;
+    text-align: center;   
+}
+
+header {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 2% auto;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    width: 98%;
+    
+    }
+
+nav{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+.bouton {
+        justify-content: center;
+        display: flex;
+        gap: 9.5%;
+        text-decoration: none;
+        flex-wrap: wrap;
+        
+        
+    }
+.bouton a {
+        color: rgb(59, 57, 65);
+        margin: 1%;
+
+}
+
+.bouton a:hover {
+    color: rgb(21, 6, 235);
+    font-style: italic;
+    transition: color ease;
+}
+
+  .info-perso, .formation, .professionnelle, .competences, .centre-d-interet, .niveau, .Projet {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 1%;
+    flex: 1 1 calc(48% - 1rem);
+    word-break: break-word;
+    white-space: normal;
+    margin-bottom: 25px;
+    padding: 5px;
+    }
+
+
+.info-perso h2,
+.formation h2,
+.professionnelle h2,
+.competences h2,
+.centre-d-interet h2,
+.niveau h2,
+.Projet h2 {
+    white-space: normal !important;   
+    word-break: break-word !important;
+    padding: 0.9%;
+}
+
+
+.f {
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill label {
+    font-weight: bold;
+
+}
+
+.skill-bar-container {
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-right: 5%;
+}
+
+.skill-bar {
+    height: 100%;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+
+}
+
+
+
+
+footer {
+    border-radius: 30px;
+    background-color: rgb(211, 211, 211);
+    margin: 2% auto;
+    margin-bottom: 6%;
+    max-width: 1200px;
+    width: 98%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+footer form {
+    text-align: left;
+    margin: auto; 
+    max-width: 1000px;
+}
+footer label {
+    justify-content: left;
+    margin-left: calc(1.5% + 5px);
+    margin-bottom: 0.1px; 
+    font-weight: bold;
+}
+
+footer input,
+footer textarea {
+    display: block;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: auto;
+    width: 98%;            
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+footer textarea {
+    display: block;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: auto;
+    width: 98%;            
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+footer button{
+
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+.Projet {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 1%;
+    flex: 1 1 calc(98% - 1rem);
+    word-break: break-word;
+    white-space: normal;
+    max-width: 1200px;
+    width: 98%;
+}
+.Hangman{
+    background-color: rgb(215, 99, 53);
+    cursor: pointer;
+    border-radius: 30px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-image: url("https://poki.com/fr/g/hangman?msockid=04cf01e42ad66d512ebc17c22b626c54");
+}
+.Hangman a {
+    cursor: pointer;
+    width: 350px;
+    background: url("https://openai.com/fr-FR/");
+}
+.Chatbot-IA {
+    background-color: rgb(54, 60, 56);
+    border-radius: 30px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    cursor: pointer;
+    background-image: url("https://openai.com/fr-FR/");
+}
+
+.Chatbot-IA a {
+    cursor: pointer;
+    width: 350px;
+    background: url("https://openai.com/fr-FR/");
+}
+
+
+
+.Jeu-video-simple{
+    text-align: center;
+    cursor: pointer;
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.vvraO9yA--arrhiAIiPSRQHaE8?cb=12&pid=ImgDet&w=200&h=133&c=7&dpr=1,7&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px 0; 
+}
+.Jeu-video-simple a {
+    cursor: pointer;
+    width: 350px;
+}
+.cache{
+    color: transparent;
+    user-select: none;
+    font-size: xx-small;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+.Projet p{
+    margin: 2% 4%;
+    text-align: justify;
+}
+
+
+}
+
+        
+    
+
+        
+
+
+
+
+@media (min-width: 768px)  {
+
+body {
+
+    background: linear-gradient(#434343, #bdbdbd);
+    border: thick double #d8e2e7;
+    border-width: thick;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.traduire1 {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    top: 10px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    z-index: 1000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.traduire2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    top: 10px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    z-index: 1000;
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+
+
+header {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 2% auto;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    width: 98%;
+    
+    }
+
+nav{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+
+
+.bouton {
+        justify-content: center;
+        display: flex;
+        gap: 9.5%;
+        text-decoration: none;
+        flex-wrap: wrap; 
+        
+    }
+
+.bouton a {
+        color: rgb(59, 57, 65);
+        margin: 1%;
+}
+
+.bouton a:hover {
+    color: rgb(21, 6, 235);
+    font-style: italic;
+    transition: color ease;
+}
+
+.custom-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1% auto; 
+    width: 98%;
+    box-sizing: border-box;
+    max-width: 1150px;
+}
+
+  .info-perso, .formation, .professionnelle, .competences, .centre-d-interet, .niveau {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 1%;
+    flex: 1 1 calc(48% - 1rem);
+    word-break: break-word;
+    white-space: normal;
+    }
+
+
+.info-perso h2,
+.formation h2,
+.professionnelle h2,
+.competences h2,
+.centre-d-interet h2
+.niveau h2 {
+    white-space: normal !important;   
+    word-break: break-word !important;
+    padding: 0.9%;
+}
+
+.f {
+    color: black;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill span {
+    font-weight: bold;
+
+}
+
+.skill-bar-container {
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-right: 5%;
+    
+}
+
+
+.skill-bar {
+    height: 100%;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+
+}
+
+
+
+
+footer {
+    border-radius: 30px;
+    background-color: rgb(211, 211, 211);
+    margin: 2% auto;
+    margin-bottom: 6%;
+    max-width: 1200px;
+    width: 98%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+footer form {
+    text-align: left;
+    margin: auto; 
+    max-width: 1000px;
+}
+footer label {
+    justify-content: left;
+    margin-left: calc(1.5% + 5px);
+    margin-bottom: 0.1px; 
+    font-weight: bold;
+}
+
+footer input,
+footer textarea {
+    display: block;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: auto;
+    width: 98%;            
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+footer textarea {
+    display: block;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: auto;
+    width: 98%;            
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+footer button{
+
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    background: linear-gradient(to right, #434343, #bdbdbd);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.cache{
+    color: transparent;
+    user-select: none;
+    font-size: 0.02rem;
+}
+
+.Projet {
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 1%;
+    flex: 1 1 calc(98% - 1rem);
+    word-break: break-word;
+    white-space: normal;
+    max-width: 1200px;
+    width: 98%;
+}
+.Hangman{
+    background-color: rgb(215, 99, 53);
+    cursor: pointer;
+    border-radius: 30px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+
+}
+.Hangman a {
+
+    width: 350px;
+;
+}
+.Chatbot-IA {
+    background-color: rgb(54, 60, 56);
+    border-radius: 30px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.Chatbot-IA a {
+    width: 350px; 
+}
+
+
+
+.Jeu-video-simple{
+    text-align: center;
+    cursor: pointer;
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.vvraO9yA--arrhiAIiPSRQHaE8?cb=12&pid=ImgDet&w=200&h=133&c=7&dpr=1,7&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+    padding: 20px 0; 
+}
+.Jeu-video-simple a {
+
+    width: 350px;
+
+}
+
+.Projet p{
+    margin: 2% 4%;
+    text-align: justify;
+}
+
+}
+
+        
+    
+
+        
+
