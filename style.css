@@ -205,7 +205,8 @@ footer button{
     background-color: rgb(215, 99, 53);
     cursor: pointer;
     border-radius: 30px;
-    width: 350px;
+    width: 90%;
+    max-width: 350px; 
     margin: auto;
     text-align: center;
     margin-top: 3%;
@@ -220,7 +221,8 @@ footer button{
 .Chatbot-IA {
     background-color: rgb(54, 60, 56);
     border-radius: 30px;
-    width: 350px;
+    width: 90%;
+    max-width: 350px; 
     margin: auto;
     text-align: center;
     margin-top: 3%;
@@ -235,8 +237,27 @@ footer button{
     background: url("https://openai.com/fr-FR/");
 }
 
-
-
+.imgg{
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    display: inline-block; 
+    margin-top: 2%;
+}
+.imgh{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    display: inline-block; 
+    margin-top: 2%;
+}
+.imgc{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    display: inline-block; 
+    margin-top: 2%;
+}
 .Jeu-video-simple{
     text-align: center;
     cursor: pointer;
@@ -244,7 +265,8 @@ footer button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    width: 350px;
+    width: 90%;
+    max-width: 350px; 
     border-radius: 20px;
     margin: auto;
     margin-top: 3%;
