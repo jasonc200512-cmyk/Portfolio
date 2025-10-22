@@ -207,10 +207,11 @@ footer button{
     border-radius: 30px;
     width: 90%;
     max-width: 350px; 
-    margin-right: 8%;
     text-align: center;
+    margin: 0 auto;
+    transform: translateX(-5%);
+    margin-bottom: 5%;
     margin-top: 3%;
-    margin-bottom: 4%;
     background-image: url("https://poki.com/fr/g/hangman?msockid=04cf01e42ad66d512ebc17c22b626c54");
 }
 .Hangman a {
@@ -223,10 +224,11 @@ footer button{
     border-radius: 30px;
     width: 90%;
     max-width: 350px; 
-    margin-right: 8%;
     text-align: center;
+    margin: 0 auto;
+    transform: translateX(-5%);
+    margin-bottom: 5%;
     margin-top: 3%;
-    margin-bottom: 4%;
     cursor: pointer;
     background-image: url("https://openai.com/fr-FR/");
 }
@@ -274,9 +276,8 @@ footer button{
     width: 90%;
     max-width: 350px; 
     border-radius: 20px;
-    margin-top: 3%;
-    margin-right: 8%;
-    padding: 20px 0; 
+    margin: 0 auto;
+    transform: translateX(-5%);
 }
 .Jeu-video-simple a {
     cursor: pointer;
