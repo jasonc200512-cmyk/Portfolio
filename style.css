@@ -236,7 +236,13 @@ footer button{
     width: 350px;
     background: url("https://openai.com/fr-FR/");
 }
-
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
 .imgg{
     width: 80%;
     height: auto;
@@ -315,11 +321,14 @@ body {
     padding: 0;
     display: block;
 }
+.intro {
+    text-decoration: none;
+    font-weight: normal;
+}
 
 .traduire1 {
     margin-left: 10px;
     margin-top: 10px;
-
     top: 10px;
     background: linear-gradient(to right, #434343, #bdbdbd);
     padding: 10px 20px;
@@ -354,14 +363,19 @@ header {
     width: 98%;
     
     }
-
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
 nav{
         text-align: center;
         font-size: 20px;
         font-weight: bold;
         margin-top: 2%;
         margin-bottom: 2%;
-
     }
 
 
