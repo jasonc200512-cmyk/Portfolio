@@ -1,7 +1,10 @@
 @media (max-width: 767px) {
 
-body {
+html {
+    font-size: 18px;
+}
 
+body {
     background: linear-gradient(#434343, #bdbdbd);
     border: thick double #d8e2e7;
     border-width: thick;
@@ -125,8 +128,10 @@ nav{
 }
 
 .skill-bar {
+    width: 0;
     height: 100%;
     background: linear-gradient(to right, #434343, #bdbdbd);
+    transition: width 2s ease-in-out;
 
 }
 
@@ -313,6 +318,9 @@ li {
 
 
 @media (min-width: 768px)  {
+html {
+    font-size: 18px;
+}
 
 body {
 
@@ -467,8 +475,10 @@ li {
 
 
 .skill-bar {
+    width: 0;
     height: 100%;
     background: linear-gradient(to right, #434343, #bdbdbd);
+    transition: width 2s ease-in-out;
 
 }
 

@@ -21,16 +21,21 @@ GTA.forEach(article => {
 });
 
 
-const traduire1 = document.querySelectorAll('button.traduire1');
-traduire1.forEach(article => {
-  article.addEventListener("click", function () {
-    window.open("file:///C:/Users/jason/OneDrive/Desktop/portfolio/vrai/index1.html");
-  });
-});
+const skillBars = document.querySelectorAll('.skill-bar');
 
-const traduire2 = document.querySelectorAll('button.traduire2');
-traduire2.forEach(article => {
-  article.addEventListener("click", function () {
-    window.open("file:///C:/Users/jason/OneDrive/Desktop/portfolio/vrai/index.html");
+function View(element) {
+  const rect = element.getBoundingClientRect();
+  return rect.top <= (window.innerHeight || document.documentElement.clientHeight);
+}
+
+function animateSkills() {
+  skillBars.forEach(bar => {
+    if (View(bar) && !bar.classList.contains('animated')) {
+      bar.style.width = bar.getAttribute('data-skill');
+      bar.classList.add('animated');
+    }
   });
-});
+}
+
+window.addEventListener('scroll', animateSkills);
+window.addEventListener('load', animateSkills);
