@@ -15,12 +15,24 @@ Localisation : Paris
 ---
 
 ## Technologies & Outils
-Pour ce projet, j'ai utilisé :
+Pour ce projet, j’ai utilisé un ensemble de technologies front-end afin de créer une expérience utilisateur fluide et interactive :
 
-- **HTML5 / CSS**  
-- **JavaScript**  
-- **Bootstrap**  
+- **HTML5** : Structuration sémantique des pages pour un contenu clair et accessible.  
+- **CSS3** : Mise en forme des éléments, animations et design responsive.  
+- **JavaScript** : Dynamisation des pages, gestion des événements et interactivité.  
+- **Bootstrap** : Framework CSS pour un design réactif et moderne, facilitant la mise en page et le responsive design.
+- 
+### Exemple d’interactions développées
+- Ouverture de projets externes en cliquant sur les articles correspondants
+- Animation des barres de compétences au scroll pour une expérience visuelle engageante
 
+## Projets
+
+Chatbot IA : Interaction directe avec des API d’intelligence artificielle.
+
+Hangman : Jeu classique du pendu, implémenté en JavaScript.
+
+Jeu vidéo simple (GTA) : Présentation et lien vers des jeux externes.
 ---
 
 ## Aperçu du site
