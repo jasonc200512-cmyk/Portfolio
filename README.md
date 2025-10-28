@@ -32,7 +32,8 @@ Chatbot IA : Interaction directe avec des API d’intelligence artificielle.
 
 Hangman : Jeu classique du pendu, implémenté en JavaScript.
 
-Jeu vidéo simple (GTA) : Présentation et lien vers des jeux externes.
+Jeu vidéo simple (GTA): Présentation et lien vers des jeux externes.
+
 ---
 
 ## Aperçu du site
